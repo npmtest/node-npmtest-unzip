@@ -1,6 +1,6 @@
 # npmtest-unzip
 
-#### test coverage for  [unzip (v0.1.11)](https://github.com/EvanOxfeld/node-unzip)  [![npm package](https://img.shields.io/npm/v/npmtest-unzip.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-unzip) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-unzip.svg)](https://travis-ci.org/npmtest/node-npmtest-unzip)
+#### basic test coverage for  [unzip (v0.1.11)](https://github.com/EvanOxfeld/node-unzip)  [![npm package](https://img.shields.io/npm/v/npmtest-unzip.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-unzip) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-unzip.svg)](https://travis-ci.org/npmtest/node-npmtest-unzip)
 
 #### Unzip cross-platform streaming API compatible with fstream and fs.ReadStream
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-unzip/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-unzip/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-unzip/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-unzip/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-unzip/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-unzip/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-unzip/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-unzip/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-unzip/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-unzip/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-unzip/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-unzip/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "tap ./test/*.js"
     },
-    "version": "0.1.11"
+    "version": "0.1.11",
+    "bin": {}
 }
 ```
 
